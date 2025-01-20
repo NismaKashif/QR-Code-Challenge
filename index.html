@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+     *{
+	font-family:"Outfit", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+	}
+	body{
+		background-color:#d6e2f0;
+	}
+	#qr-code-container{
+		width:305px;
+		height:500px;
+		background-color:#fff;
+		border-radius:23px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:4rem;
+		margin-bottom:3rem;
+	}
+	.qr-code-img{
+		text-align:center;
+	}
+	
+	.qr-code-img img{
+		width:100%;
+		padding:1rem;
+		border-radius:25px;
+	}
+	h2{
+		text-align:center;
+		padding: 0 1.3rem;
+		color:#1f3251;
+	}
+p{
+	font-size:15px;
+	text-align:center;
+	color:#7b879b;
+	padding: 1rem 2rem;
+    	
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*
+Media Queries
+*/
+@media only screen and (max-width: 480px) {
+  qr-code-container{
+    margin-top:2rem;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  qr-code-container{
+    width:300px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  qr-code-container{
+    width:250px;
+  }
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="qr-code-container">
+    <div class="qr-code-img">
+    <img src="image-qr-code.png" alt="Frontend Mentor QR-Code Challenge">
+    </div>
+    <h2>
+    Improve you front-end skill by building projects
+    </h2>
+    <p>
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+    </div>
+</body>
+</html>
